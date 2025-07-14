@@ -1,4 +1,4 @@
-# 🛍️ Panda Commerce
+# 🛍️Commerce
 
 A beautiful and responsive eCommerce landing page designed using **HTML5**, **CSS3**, and **Font Awesome** icons. It includes product showcases, a banner, dropdown navigation, and a responsive layout.
 
