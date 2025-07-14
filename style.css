@@ -47,6 +47,7 @@ nav {
 .product-li {
   position: relative;
 }
+/*
 .dropdown-nav-items {
   position: absolute;
   top: 30%;
@@ -60,6 +61,41 @@ nav {
   box-shadow: 2px 0px 8px 0px rgb(0 0 0 / 15%);
   visibility: hidden;
 }
+  */
+
+ .product-li {
+  position: relative; /* Necessary for absolute positioning */
+}
+
+.dropdown-nav-items {
+  position: absolute;
+  top: 100%;         /* Appear just below the Product link */
+  left: 0;           /* Align with Product link */
+  padding: 10px 0;
+  list-style: none;
+  background-color: white;
+  text-align: center;
+  width: 150px;
+  border-radius: 0 0 15px 15px;
+  box-shadow: 2px 0px 8px 0px rgba(0, 0, 0, 0.15);
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  z-index: 999;
+}
+
+.dropdown-nav-items li {
+  margin: 5px 0;
+}
+
+.product-li:hover .dropdown-nav-items {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+
+/*
 .dropdown-nav-items li {
   margin: 5px 0;
 }
@@ -68,6 +104,7 @@ nav {
   top: 100%;
   transition: 0.5s;
 }
+  */
 
 .search-parent {
   position: relative;
@@ -235,7 +272,7 @@ nav {
   
 
 .card-content{
-height: 500px;
+height: 450px;
 
 }
 
