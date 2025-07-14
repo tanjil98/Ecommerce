@@ -30,7 +30,4 @@ A beautiful and responsive eCommerce landing page designed using **HTML5**, **CS
 - Responsive Design with Flexbox  
 - Hover effects and transition animations
 
----
-
-## 📁 Folder Structure
 
